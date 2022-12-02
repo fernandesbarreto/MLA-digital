@@ -5,6 +5,7 @@ import { GlobalStyle } from './styles/global';
 
 
 import { Home } from './pages';
+import { CardFeedback } from './components';
 
 function App() {
   return (
