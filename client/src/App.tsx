@@ -5,10 +5,12 @@ import { GlobalStyle } from './styles/global';
 
 
 import { Home } from './pages';
+import { Whatsapp } from './components';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
+      <Whatsapp/>
       <Home/>
       <GlobalStyle/>
     </ThemeProvider>
