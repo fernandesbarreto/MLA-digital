@@ -2,14 +2,12 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-
-
-import { Home } from './pages';
+import {Component_apoio} from "./components/Apoio"
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Home/>
+      <Component_apoio/>
       <GlobalStyle/>
     </ThemeProvider>
   );
