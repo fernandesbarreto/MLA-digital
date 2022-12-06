@@ -19,6 +19,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 279px;
     @media(min-width: 1920px) {
         gap: 20%;
