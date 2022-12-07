@@ -1,6 +1,9 @@
 import LogoCITi from './logo.png';
-import LogoWhatsap from './logoWhatsap.png';
+import LogoWhatsapp from './logoWhatsapp.png';
+import BackgroundContact from './backgroundContact.png';
+
 export {
     LogoCITi,
-    LogoWhatsap
+    LogoWhatsapp,
+    BackgroundContact
 };
