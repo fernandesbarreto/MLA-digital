@@ -5,11 +5,12 @@ import { GlobalStyle } from './styles/global';
 import { Products } from './components';
 
 import { Home } from './pages';
+import { Component_apoio} from "./components/support"
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Home/>
+      <Component_apoio/>
       <GlobalStyle/>
     </ThemeProvider>
   );
