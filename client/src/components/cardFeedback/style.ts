@@ -27,15 +27,15 @@ export const Image = styled.img`
 export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
 `;
 
 export const Name = styled.h3`
     height: 29px;
-    width: 154px;
+    width: 434px;
 
-
-    font-family: 'Lato';
+    font-family: 'Lato', 'Times New Roman';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -45,10 +45,10 @@ export const Name = styled.h3`
 `;
 
 export const Description = styled.p`
-    width: 294px;
+    width: 434px;
     height: 29px;
 
-    font-family: 'Lato';
+    font-family: 'Lato', 'Times New Roman';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -57,9 +57,10 @@ export const Description = styled.p`
     color: rgba(28, 28, 28, 0.6);
 
 `;
+
 export const TextFeedback = styled.p`
-    width:434px;
-    height:183px;
+    width: 434px;
+    height: 183px;
 
     font-family: Lato;
     font-style: normal;
@@ -69,5 +70,4 @@ export const TextFeedback = styled.p`
     text-align: left;
 
     color: #1C1C1C;
-
 `;
