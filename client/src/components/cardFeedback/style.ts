@@ -32,6 +32,8 @@ export const TextContainer = styled.div`
 `;
 
 export const Name = styled.h3`
+    margin: 0;
+
     height: 29px;
     width: 434px;
 
@@ -45,6 +47,8 @@ export const Name = styled.h3`
 `;
 
 export const Description = styled.p`
+    margin: 0;
+
     width: 434px;
     height: 29px;
 
@@ -59,6 +63,8 @@ export const Description = styled.p`
 `;
 
 export const TextFeedback = styled.p`
+    margin: 0;
+
     width: 434px;
     height: 183px;
 
