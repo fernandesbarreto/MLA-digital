@@ -5,12 +5,12 @@ import { GlobalStyle } from './styles/global';
 
 
 import { Home } from './pages';
-import { SectionAboutUs } from './pages/AboutUs/styles';
+import { SectionAboutUs } from './pages/AboutUs';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <AboutUs/>
+      <SectionAboutUs/>
       {/* <GlobalStyle/> */}
     </ThemeProvider>
   );
