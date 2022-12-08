@@ -15,7 +15,7 @@ const ProductsSection: React.ElementType = () => {
     const[ProjectInfo, setProjectInfo] = React.useState<ProjectProps>()
 
     async function loadProjectInfo(){
-        const res = await axios.get("http://localhost:3000/project")
+        const res = await axios.get("http://localhost:3001/product")
         const {data} = res;
         console.log(data[0]);
         setProjectInfo(data[0]);
