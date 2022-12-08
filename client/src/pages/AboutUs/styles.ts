@@ -2,20 +2,17 @@ import styled from "styled-components";
 
 
 export const General = styled.div`
-    width: 1440px;
-    height: 1080px;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: relative;
-    @media (min-width: 1441px){
-        justify-content:center;
-    }
+   
 `
 
 export const Line = styled.div`
     width: 600px;
     height: 5px;
-    margin-left: 419px;
     margin-top: 56px;
     background-color: rgba(78, 232, 232, 1);
     @media (max-width: 1080px){
@@ -28,7 +25,6 @@ export const AboutUs = styled.div`
     width: 181px;
     height: 38px;
     margin-top: 48px;;
-    margin-left: 628px;
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
@@ -39,15 +35,14 @@ export const AboutUs = styled.div`
         width: 100%;
         margin-left: auto;
     }
+    
 `
 
 export const MainText = styled.div`
     margin-top: 24px;
-    margin-left: 354px;;
     width: 728px;
     height: 96px;
     font-size: 40px;
-    align-items: center;
     font-weight: 700px;
     color: rgba(28, 28, 28, 1);
     font-family: 'Lato', 'Times New Roman', Times, serif;
@@ -95,10 +90,10 @@ export const Photo = styled.img`
 
 export const Square = styled.img`
     position: absolute;
-    left: 951px;
+    left: 63%;
     top: 185px;
     z-index : 0;
-    @media (max-width:1080){
-        display: none;
+    @media (max-width:1081px){
+        margin-left: 1090px;
     }
 `
