@@ -3,5 +3,5 @@ import { Contact } from './contact';
 
 export {
     Home,
-    Contact
+    Contact,
 };

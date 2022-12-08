@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import {Container, Link, Retangulo, Titulo, SubTitulo} from './styles';
 type CardProps = {
     title: string;
