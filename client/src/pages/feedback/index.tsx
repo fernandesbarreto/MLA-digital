@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { LeftArrow, RightArrow } from "../../assets";
-import { CardContainer, CarouselContainer, FeedbackContainer, Text, TitleSection } from "./styles";
+import { LeftArrow, RightArrow, DouglasFarias, SilvanaFarias, SilviaLira } from "../../assets";
+import { CarouselContainer, FeedbackContainer, Text, TitleSection } from "./styles";
+import { CardFeedback } from "../../components"
 import axios from 'axios';
 
 function SampleNextArrow(props: any) {
     const { className, style, onClick } = props;
     return (
-        <img src={RightArrow} className={className} onClick={onClick} style={{ ...style, display: "flex", height: "69px", width: "34px", marginRight: "-72px"}}/>
+        <img src={RightArrow} className={className} onClick={onClick} style={{ ...style, display: "flex", height: "69px", width: "34px", marginRight: "-72px" }}/>
     );
 }
   
@@ -60,9 +61,9 @@ export default class Feedback extends Component {
             {/* carousel */}
             <CarouselContainer>
                 <Slider {...settings}>
-                    <CardContainer>1</CardContainer>
-                    <CardContainer>2</CardContainer>
-                    <CardContainer>3</CardContainer>
+                  <CardFeedback picture={DouglasFarias} name={"Douglas Farias"} company={"Exclusivo’s Moda Masculina"} text={"“Os serviços da MLA superaram minhas expectativas. Conseguimos dobrar o nosso faturamento no último mês!"}/>
+                  <CardFeedback picture={SilviaLira} name={"Silvia Lira"} company={"Exclusivo’s Moda Feminina"} text={"“Sabe de uma coisa? Inovar é preciso, e eu percebi a diferença quando contratei os serviços da MLA, pois estava muito perdida e depois dos serviços deles eu consegui escalonar minhas vendas. Super recomendo!”"}/>
+                  <CardFeedback picture={SilvanaFarias} name={"Silvana Farias"} company={"Perfeitta Moda Feminina"} text={"“Foi um divisor de águas na minha empresa após adquirir e utilizar os apps da MLA digital, aumentamos nosso faturamento e nossa visibilidade significadamente.”"}/>
                 </Slider>
             </CarouselContainer>
         </FeedbackContainer>

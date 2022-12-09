@@ -54,21 +54,6 @@ export const CarouselContainer = styled.div`
   position: absolute;
 
   margin-top: 374px;
-  padding: 0;
 
   width: 1047px;
-`;
-
-
-export const CardContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 456px;
-  width: 832px;
-  border-radius: 10px;
-  background: #FEFEFE;
-  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  background-color: rebeccapurple;
 `;
