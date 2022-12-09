@@ -3,7 +3,9 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 import { Contact, Home, HomePage, Navbar } from './pages';
+import {Component_apoio} from "./components/Apoio"
 import ProductsSection from './pages/products';
+import SupportPage from './pages/secaoApoio';
 import { Products, Whatsapp, CardFeedback } from './components';
 import { ScrollDiv } from './pages/navbar/styles';
 
