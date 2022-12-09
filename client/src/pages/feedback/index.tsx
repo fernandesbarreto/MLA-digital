@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import { LeftArrow, RightArrow } from "../../assets";
 import { CardContainer, CarouselContainer, FeedbackContainer, Text, TitleSection } from "./styles";
+import axios from 'axios';
 
 function SampleNextArrow(props: any) {
     const { className, style, onClick } = props;
