@@ -22,7 +22,7 @@ export const Line = styled.div`
 `
 
 export const AboutUs = styled.div`
-    width: 181px;
+    width: 220px;
     height: 38px;
     margin-top: 48px;;
     font-size: 32px;
