@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: relative;
+    height: 850px;
 `;
 
 export const Triangle = styled.img`

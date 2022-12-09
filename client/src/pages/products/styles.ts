@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+export const General = styled.div`
+    height: 1024px;
+`;
+
 export const Line = styled.img`
     width: 600px;
     margin-bottom: 48px;

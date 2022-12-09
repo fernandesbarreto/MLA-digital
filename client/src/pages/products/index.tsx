@@ -1,7 +1,7 @@
 import { Products } from "../../components";
 import axios from "axios";
 import React, { useEffect } from "react";
-import {Line, Container, Texts, Title, SubTitle, Content} from './styles';
+import {General, Line, Container, Texts, Title, SubTitle, Content} from './styles';
 import { BlueLine } from "../../assets";
 
 type ProjectProps = {
@@ -26,20 +26,22 @@ const ProductsSection: React.ElementType = () => {
     },[])
 
     return(
-        <Container>
-            <Line src = {BlueLine}/>
-            <Texts>
-                <Title>PRODUTOS</Title>
-                <SubTitle>Temos o <strong>produto ideal</strong> para cada uma
-das suas demandas!</SubTitle>
-            </Texts>
-            <Content>
-                <Products title = "Aplicativo Nível&#10;O Verdadeiro Cashback" subtitle = "Licença anual" link = "/"/>
-                <Products title = "Aplicativo Nível&#10;O Delivery Sem Taxas" subtitle = "Licença anual" link = "/"/>
-                <Products title = "Aplicativo Epadoca" subtitle = "Para padarias&#10;venderem mais" link = "/"/>
-                <Products title = "Aplicativo Notifiki" subtitle = "O Bot de Whatsapp&#10;para varejistas e serviços" link = "/"/>
-            </Content>
-        </Container>
+        <General>
+            <Container>
+                <Line src = {BlueLine}/>
+                <Texts>
+                    <Title>PRODUTOS</Title>
+                    <SubTitle>Temos o <strong>produto ideal</strong> para cada uma
+    das suas demandas!</SubTitle>
+                </Texts>
+                <Content>
+                    <Products title = "Aplicativo Nível&#10;O Verdadeiro Cashback" subtitle = "Licença anual" link = "/"/>
+                    <Products title = "Aplicativo Nível&#10;O Delivery Sem Taxas" subtitle = "Licença anual" link = "/"/>
+                    <Products title = "Aplicativo Epadoca" subtitle = "Para padarias&#10;venderem mais" link = "/"/>
+                    <Products title = "Aplicativo Notifiki" subtitle = "O Bot de Whatsapp&#10;para varejistas e serviços" link = "/"/>
+                </Content>
+            </Container>
+        </General>
     )
 }
 export default ProductsSection;
