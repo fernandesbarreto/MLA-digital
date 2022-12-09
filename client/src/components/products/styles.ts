@@ -27,7 +27,9 @@ export const Titulo = styled.h1`
     font-size: 24px;
     line-height: 29px;
     text-align: center;
+    white-space: pre-line;
     color: #FEFEFE;
+    margin: 32px 0 0;
 `;
 
 export const SubTitulo = styled.h2`
@@ -37,6 +39,7 @@ export const SubTitulo = styled.h2`
     font-size: 24px;
     line-height: 29px;
     text-align: center;
+    white-space: pre-line;
     color: #FEFEFE;
-    margin-top: 16px;
+    margin: 16px 0 32px;
 `;
