@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FeedbackContainer = styled.div`
   position: relative;
 
-  width: 1440px;
+  /* width: 1440px; */
   height: 1024px;
 
   display: flex;
