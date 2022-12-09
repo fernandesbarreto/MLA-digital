@@ -1,4 +1,6 @@
 import LogoCITi from './logo.png';
+import FotoTelefone from './telefoneSecaoNos.png';
+import Quadrado from './quadrado.png';
 import fastMonion from './fastmotion1.png';
 import sebraPe from './sebrae2.png';
 import feComercio from './fecomercio.png';
@@ -15,7 +17,12 @@ import BlueLine from './blue_line.png';
 
 export {
     LogoCITi, 
-    fastMonion, 
+    LogoWhatsapp,
+    BackgroundContact,
+    BlueLine,
+    Smartphone,
+    TriangleImg,
+     fastMonion, 
     sebraPe, 
     feComercio, 
     cashback, 
@@ -23,10 +30,6 @@ export {
     nivelAgmla, 
     startUp, 
     neoVentures,
-    LogoCITi,
-    LogoWhatsapp,
-    BackgroundContact,
-    BlueLine,
-    Smartphone,
-    TriangleImg
+    FotoTelefone, 
+    Quadrado,
 };

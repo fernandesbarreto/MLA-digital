@@ -9,6 +9,7 @@ import SupportPage from './pages/secaoApoio';
 import { Products, Whatsapp, CardFeedback } from './components';
 import { ScrollDiv } from './pages/navbar/styles';
 
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
