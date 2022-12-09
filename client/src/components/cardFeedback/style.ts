@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const CardContainer = styled.div`
+    margin-left: 10%;
 
     display: flex;
     justify-content: space-around;

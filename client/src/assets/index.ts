@@ -1,4 +1,9 @@
 import LogoCITi from './logo.png';
+import LeftArrow from './leftArrow.png'
+import RightArrow from './rightArrow.png'
+import DouglasFarias from './douglasFarias.png'
+import SilvanaFarias from './silvanaFarias.png'
+import SilviaLira from './silviaLira.png'
 import FotoTelefone from './telefoneSecaoNos.png';
 import Quadrado from './quadrado.png';
 import fastMonion from './fastmotion1.png';
@@ -22,7 +27,7 @@ export {
     BlueLine,
     Smartphone,
     TriangleImg,
-     fastMonion, 
+    fastMonion, 
     sebraPe, 
     feComercio, 
     cashback, 
@@ -32,4 +37,9 @@ export {
     neoVentures,
     FotoTelefone, 
     Quadrado,
+    LeftArrow,
+    RightArrow,
+    DouglasFarias,
+    SilvanaFarias,
+    SilviaLira
 };
