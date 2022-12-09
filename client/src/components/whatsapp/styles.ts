@@ -9,4 +9,5 @@ export const ImageWhatsapp = styled.img`
 
     right: 88px;
     bottom: 88px;
+    z-index: 3;
 `;
