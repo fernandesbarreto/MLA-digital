@@ -6,9 +6,10 @@ export const NavbarContainer = styled.div`
     left: 0;
     height: 160px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.6);
+    background: #FEFEFE;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     border-radius: 0 0 20px 20px;
+    z-index: 3;
 `;
 
 export const Texts = styled.div`
@@ -135,8 +136,8 @@ export const ContactB = styled.a`
 `;
 
 export const ScrollDiv = styled.div`
-    width: 0;
-    height: 0;
+    width: 100%;
+    height: 100%;
 `;
 
 

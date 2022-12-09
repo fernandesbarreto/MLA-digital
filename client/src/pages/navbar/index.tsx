@@ -7,11 +7,11 @@ export const Navbar: React.FC = () => {
         <Texts>
             <Logo >MLA DIGITAL</Logo>
             <Links>
-                <HomeB href = '#contact'>Home</HomeB>
+                <HomeB href = '#home'>Home</HomeB>
                 <AboutB href = '#about'>Sobre nós</AboutB>
                 <ProductsB href = '#products'>Produtos</ProductsB>
                 <FeedbacksB href = '#feedbacks'>Feedbacks</FeedbacksB>
-                <SupportB href = '#feedbacks'>Apoio</SupportB>
+                <SupportB href = '#support'>Apoio</SupportB>
                 <ContactB href = '#contacts'>Contato</ContactB>
             </Links>
         </Texts>
