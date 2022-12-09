@@ -2,18 +2,20 @@ import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
-import { Contact, Home } from './pages';
+import { Contact, Home, Navbar } from './pages';
 import { Products, Whatsapp, CardFeedback } from './components';
-import { Component_apoio} from "./components/support"
+import { ScrollDiv } from './pages/navbar/styles';
+// import { Component_apoio} from "./components/support"
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Contact/>
-      <Whatsapp/>
-      <Home/>
-      <Component_apoio/>
-      <GlobalStyle/>
+      <Navbar/>
+      <ScrollDiv id = "contact"/>
+      {/* <Contact/> */}
+      {/* <Whatsapp/> */}
+      {/* <Component_apoio/> */}
+      {/* <GlobalStyle/> */}
     </ThemeProvider>
   );
 }
