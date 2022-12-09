@@ -7,7 +7,26 @@ import nivel from './6 1.png';
 import nivelAgmla from './nivelMgla1.png';
 import startUp from './8 1.png';
 import neoVentures from './9 1.png';
+import Smartphone from './smartphone.png';
+import TriangleImg from './blue_rectangle.png';
+import LogoWhatsapp from './logoWhatsapp.png';
+import BackgroundContact from './backgroundContact.png';
+import BlueLine from './blue_line.png';
 
 export {
-    LogoCITi, fastMonion, sebraPe, feComercio, cashback, nivel, nivelAgmla, startUp, neoVentures
+    LogoCITi, 
+    fastMonion, 
+    sebraPe, 
+    feComercio, 
+    cashback, 
+    nivel, 
+    nivelAgmla, 
+    startUp, 
+    neoVentures,
+    LogoCITi,
+    LogoWhatsapp,
+    BackgroundContact,
+    BlueLine,
+    Smartphone,
+    TriangleImg
 };

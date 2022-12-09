@@ -6,12 +6,22 @@ import {Component_apoio} from "./components/Apoio"
 import { Products } from './components';
 import { Home } from './pages';
 import SupportPage from './pages/secaoApoio';
-
+import { Contact, Home, HomePage } from './pages';
+import ProductsSection from './pages/products';
+import { Products, Whatsapp, CardFeedback } from './components';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
+
       <SupportPage/>
+      <HomePage/>
+      {/* <Contact/> */}
+      {/* <Whatsapp/> */}
+      {/* <Home/> */}
+      <ProductsSection/>
+      {/* <Component_apoio/> */}
+      {/* <GlobalStyle/> */}
     </ThemeProvider>
   );
 }
