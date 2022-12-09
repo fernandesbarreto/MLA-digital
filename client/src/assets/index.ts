@@ -1,7 +1,15 @@
 import LogoCITi from './logo.png';
 import Smartphone from './smartphone.png';
 import TriangleImg from './blue_rectangle.png';
+import LogoWhatsapp from './logoWhatsapp.png';
+import BackgroundContact from './backgroundContact.png';
+import BlueLine from './blue_line.png';
 
 export {
-    LogoCITi, Smartphone, TriangleImg
+    LogoCITi,
+    LogoWhatsapp,
+    BackgroundContact,
+    BlueLine,
+    Smartphone,
+    TriangleImg,
 };
