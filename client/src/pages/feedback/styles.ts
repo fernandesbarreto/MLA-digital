@@ -2,14 +2,10 @@ import styled from 'styled-components';
 
 export const FeedbackContainer = styled.div`
   position: relative;
-
-  /* width: 1440px; */
   height: 1024px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: #FEFEFE;
 `;
 
