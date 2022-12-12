@@ -24,7 +24,7 @@ export const Logo = styled.div`
     font-size: 40px;
     color: white;
     @media (max-width: 1115px){
-        margin-left: auto;
+        margin-left: 0;
     }
 `
 export const Column = styled.div`
