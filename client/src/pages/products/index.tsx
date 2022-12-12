@@ -12,13 +12,13 @@ type ProjectProps = {
 }
 
 const ProductsSection: React.ElementType = () => {
-    const[ProjectInfo, setProjectInfo] = React.useState<ProjectProps>()
+    const[ProjectInfo, setProjectInfo] = React.useState<ProjectProps[]>([])
 
     async function loadProjectInfo(){
         const res = await axios.get("http://localhost:3001/product")
         const {data} = res;
-        console.log(data[0]);
-        setProjectInfo(data[0]);
+        console.log(data);
+        setProjectInfo(data);
     }
 
     useEffect(() => {
@@ -35,10 +35,9 @@ const ProductsSection: React.ElementType = () => {
     das suas demandas!</SubTitle>
                 </Texts>
                 <Content>
-                    <Products title = "Aplicativo Nível&#10;O Verdadeiro Cashback" subtitle = "Licença anual" link = "/"/>
-                    <Products title = "Aplicativo Nível&#10;O Delivery Sem Taxas" subtitle = "Licença anual" link = "/"/>
-                    <Products title = "Aplicativo Epadoca" subtitle = "Para padarias&#10;venderem mais" link = "/"/>
-                    <Products title = "Aplicativo Notifiki" subtitle = "O Bot de Whatsapp&#10;para varejistas e serviços" link = "/"/>
+                    {ProjectInfo?.map(({title, subtitle, link}) => (
+                        <Products title = {title} subtitle = {subtitle} link = {link}/>
+                    ))}
                 </Content>
             </Container>
         </General>

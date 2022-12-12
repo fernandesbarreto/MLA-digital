@@ -4,6 +4,7 @@ export const General = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 1000px;
 `
 
 export const Line = styled.div`
