@@ -1,4 +1,5 @@
 import { Home } from './home';
+import Feedback from './feedback';
 import { HomePage } from './HomePage';
 import Feedback from './feedback';
 import { Contact } from './contact';
@@ -9,6 +10,7 @@ import { SectionAboutUs } from './AboutUs';
 
 export {
     Home,
+    Feedback,
     HomePage,
     ProductsSection,
     Navbar,
