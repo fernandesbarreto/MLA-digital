@@ -3,11 +3,12 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from './styles/theme';
 import { GlobalStyle } from './styles/global';
 import {Component_apoio} from "./components/Apoio"
-import { Products } from './components';
-import { Home } from './pages';
+// import { Products } from './components';
+// import { Home } from './pages';
 import { Contact, Home, HomePage } from './pages';
 import ProductsSection from './pages/products';
-import { Products, Whatsapp, CardFeedback } from './components';
+import { Products, Whatsapp, CardFeedback } from './components/';
+import { Footer } from './components/footer';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Contact/> */}
       {/* <Whatsapp/> */}
       {/* <Home/> */}
-      <ProductsSection/>
+      {/* <ProductsSection/> */}
+      <Footer/>
       {/* <Component_apoio/> */}
       {/* <GlobalStyle/> */}
     </ThemeProvider>
