@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const General = styled.div`
     width: 100%;
+    height: 850px;
     display: flex;
     flex-direction: column;
     align-items: center;

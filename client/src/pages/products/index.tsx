@@ -35,8 +35,8 @@ const ProductsSection: React.ElementType = () => {
     das suas demandas!</SubTitle>
                 </Texts>
                 <Content>
-                    {ProjectInfo?.map(({title, subtitle, link}, index) => (
-                        <Products title={title} subtitle={subtitle} link={link}/>
+                    {ProjectInfo?.map(({title, subtitle, link}) => (
+                        <Products title = {title} subtitle = {subtitle} link = {link}/>
                     ))}
                 </Content>
             </Container>
