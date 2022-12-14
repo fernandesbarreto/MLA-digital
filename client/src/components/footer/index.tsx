@@ -16,10 +16,10 @@ export const Footer: React.ElementType= () =>{
                     <Column>
                         <Redes>Redes</Redes>
                         <Row>
-                            <LinkIg href="">
+                            <LinkIg href="https://www.instagram.com/agmladigital">
                                 <Instagram src={LogoInstagram}/>
                             </LinkIg>
-                            <LinkFace href="">
+                            <LinkFace href="https://www.facebook.com/mladigital">
                                 <Facebook src={LogoFacebook}/>
                             </LinkFace>
                         </Row>
