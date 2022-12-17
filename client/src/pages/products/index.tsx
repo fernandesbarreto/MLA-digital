@@ -3,7 +3,6 @@ import axios from "axios";
 import React, { useEffect } from "react";
 import {General, Line, Container, Texts, Title, SubTitle, Content} from './styles';
 import { BlueLine } from "../../assets";
-import { Index } from "typeorm";
 
 type ProjectProps = {
     id: number;

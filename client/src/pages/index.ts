@@ -14,5 +14,6 @@ export {
     Navbar,
     Contact,
     SupportPage,
-    SectionAboutUs
+    SectionAboutUs,
+    Feedback
 };
