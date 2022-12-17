@@ -7,6 +7,9 @@ export const FeedbackContainer = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #FEFEFE;
+  @media(max-width: 1280px){
+    height: 850px;
+  }
 `;
 
 export const TitleSection = styled.div`

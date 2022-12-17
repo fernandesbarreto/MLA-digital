@@ -5,6 +5,9 @@ export const General = styled.div`
     flex-direction: column;
     align-items: center;
     height: 1000px;
+    @media(max-width:1280px){
+        height: 850px;
+    }
 `
 
 export const Line = styled.div`
@@ -32,6 +35,11 @@ export const SubText = styled.div`
     font-family: 'Lato', 'Times New Roman', Times, serif;
     font-size: 32px;
     margin-top: 24px;
+    margin-bottom: 32px;
+    @media(max-width:1280px){
+        width: 65%;
+        font-size:28px;
+    }
 `
 
 export const Negrito = styled.span`
@@ -51,6 +59,9 @@ export const Section3 = styled.div`
     justify-content: center;
     gap: 50px;
     margin-top: -90px;
+    @media(max-width:1080px){
+        margin-top:-60px;
+    }
 `
 
 export const Section4 = styled.div`
@@ -59,4 +70,7 @@ export const Section4 = styled.div`
     justify-content: row;
     gap:50px;
     margin-top: -90px;
+    @media(max-width:1080px){
+        margin-top:-60px;
+    }
 `

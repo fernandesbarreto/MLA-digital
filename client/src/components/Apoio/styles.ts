@@ -8,6 +8,10 @@ export const Losango_borda=styled.div`
     background-color: rgba(85, 76, 177, 1);
     display: flex;
     align-items: center;
+    @media(max-width:1080px){
+        width:160px;
+        height:160px;
+    }
 `
 
 export const Losango_img=styled.img`
@@ -15,6 +19,10 @@ export const Losango_img=styled.img`
     margin-left:5.12px;
     margin-top:5.59px;
     margin-bottom:5.59px;
-    width: 220,5px;
+    width: 220.5px;
     height: 220.5px;
+    @media(max-width:1080px){
+        width:150px;
+        height:150px;
+    }
 `;
