@@ -66,6 +66,7 @@ export const Section2 = styled.div`
     @media (max-width: 1280px){
         display: flex;
         flex-direction: column;
+        align-items:center;
     }
 `
 
@@ -90,15 +91,11 @@ export const Photo = styled.img`
     margin-top: -48px;
     z-index: 2;
     @media(max-width: 1280px){
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
         object-fit: cover;
         align-self: center;
         margin: 0 auto;
-        margin-left: 30%;
-    }
-    @media (max-width: 600px){
-        display: none;
     }
 `
 

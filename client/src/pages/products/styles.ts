@@ -8,6 +8,9 @@ export const Line = styled.img`
     width: 600px;
     margin-bottom: 48px;
     margin-top: 56px;
+    @media(max-width:1280px){
+        width:80%;
+    }
 `;
 export const Container = styled.div`
     display: flex;

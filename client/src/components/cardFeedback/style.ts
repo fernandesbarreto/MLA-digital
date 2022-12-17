@@ -14,6 +14,11 @@ export const CardContainer = styled.div`
     background: #FEFEFE;
     box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+
+    @media(max-width: 1280px){
+        height: 300px;
+        width: 580px;
+    }
 `;
 
 export const Image = styled.img`
@@ -23,6 +28,11 @@ export const Image = styled.img`
     border-image: linear-gradient(180deg, #954CB4 27.6%, #554CB1 100%) 1;
     border-width: 4px;
     border-style: solid;
+    @media(max-width: 1280px){
+        height: 188px;
+        width: 151px;
+        margin-left: 80px;
+    }
 `;
 
 export const TextContainer = styled.div`
@@ -30,6 +40,9 @@ export const TextContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    @media(max-width: 1280px){
+        margin: 80px 0px 0px 40px;
+    }
 `;
 
 export const Name = styled.h3`
@@ -45,6 +58,11 @@ export const Name = styled.h3`
     line-height: 29px;
 
     color: #1C1C1C;
+    @media(max-width: 1280px){
+        width: 350px;
+        font-size: 20px;
+        line-height: 24px;
+    }
 `;
 
 export const Description = styled.p`
@@ -60,6 +78,11 @@ export const Description = styled.p`
     line-height: 29px;
 
     color: rgba(28, 28, 28, 0.6);
+    @media(max-width: 1280px){
+        width: 350px;
+        font-size: 20px;
+        line-height: 24px;
+    }
 
 `;
 
@@ -77,4 +100,9 @@ export const TextFeedback = styled.p`
     text-align: left;
 
     color: #1C1C1C;
+    @media(max-width: 1280px){
+        width: 350px;
+        font-size: 20px;
+        line-height: 20px;
+    }
 `;

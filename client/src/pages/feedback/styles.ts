@@ -47,6 +47,10 @@ export const Text = styled.p`
 
   margin-top: 171px;
   margin-bottom: 80px;
+  @media(max-width:1280px){
+    font-size: 32px;
+    width: 80%;
+  }
 `;
 
 export const CarouselContainer = styled.div`
@@ -55,5 +59,7 @@ export const CarouselContainer = styled.div`
   margin-top: 374px;
 
   width: 1047px;
-  height: 100px;
+  @media(max-width:1280px){
+    width:80%;
+  }
 `;
