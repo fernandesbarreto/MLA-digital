@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { useEffect } from "react";
 import {General, Line, Container, Texts, Title, SubTitle, Content} from './styles';
 import { BlueLine } from "../../assets";
+import { Index } from "typeorm";
 
 type ProjectProps = {
     id: number;
@@ -12,6 +13,7 @@ type ProjectProps = {
 }
 
 const ProductsSection: React.ElementType = () => {
+
     const[ProjectInfo, setProjectInfo] = React.useState<ProjectProps[]>([])
 
     async function loadProjectInfo(){
@@ -35,7 +37,7 @@ const ProductsSection: React.ElementType = () => {
     das suas demandas!</SubTitle>
                 </Texts>
                 <Content>
-                    {ProjectInfo?.map(({title, subtitle, link}) => (
+                    {ProjectInfo?.map(({title, subtitle, link} : ProjectProps) => (
                         <Products title = {title} subtitle = {subtitle} link = {link}/>
                     ))}
                 </Content>

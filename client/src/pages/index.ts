@@ -12,7 +12,6 @@ export {
     HomePage,
     ProductsSection,
     Navbar,
-    Feedback,
     Contact,
     SupportPage,
     SectionAboutUs

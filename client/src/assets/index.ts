@@ -19,7 +19,9 @@ import TriangleImg from './blue_rectangle.png';
 import BlueLine from './blue_line.png';
 import LogoWhatsapp from './logoWhatsapp.png';
 import BackgroundContact from './backgroundContact.png';
-
+import BlueLine from './blue_line.png';
+import LogoInstagram from './Instagram.png';
+import LogoFacebook from './facebook.png';
 
 export {
     BlueLine,
@@ -42,5 +44,7 @@ export {
     BackgroundContact,
     DouglasFarias,
     SilvanaFarias,
-    SilviaLira
+    SilviaLira, 
+    LogoInstagram,
+    LogoFacebook,
 };
