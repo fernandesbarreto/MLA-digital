@@ -8,6 +8,9 @@ export const General = styled.div`
     flex-direction: column;
     align-items: center;
     position: relative;
+    @media (max-width: 1080px){
+        height: 1200px;
+    }
    
 `
 
@@ -63,6 +66,7 @@ export const Negrito = styled.span`
 export const Section2 = styled.div`
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     @media (max-width:1080px){
         display: flex;
         flex-direction: column;
@@ -70,7 +74,6 @@ export const Section2 = styled.div`
 `
 
 export const Description = styled.div`
-    margin-left: 273px;
     margin-top: 174px;
     width: 460px;
     height: 203px;
@@ -78,8 +81,11 @@ export const Description = styled.div`
     font-size: 24px;
     font-family: 'Lato', 'Times New Roman', Times, serif;
     @media (max-width: 1180px){
-        width: 100%;
-        margin-left: auto;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 74px;
+        
     }
 `
 
@@ -87,6 +93,14 @@ export const Photo = styled.img`
     margin-left: 119px;
     margin-top: -48px;
     z-index: 2;
+    @media(max-width: 1080px){
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        align-self: center;
+        margin: 0 auto;
+        margin-left: 30%;
+    }
     @media (max-width: 600px){
         display: none;
     }

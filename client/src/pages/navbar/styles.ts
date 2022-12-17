@@ -16,6 +16,9 @@ export const Texts = styled.div`
     display: flex;
     flex-direction: row;  
     margin-left: 80px;
+    @media(max-width:1080px){
+        margin-left: 50px;
+    }
 `;
 
 export const Logo = styled.div`
@@ -30,6 +33,9 @@ export const Logo = styled.div`
     text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
     margin-top: 56px;
     flex: 1;
+    @media (max-width:1080px){
+        display: none;
+    }
 `;
 
 export const Links = styled.div`
@@ -37,6 +43,12 @@ export const Links = styled.div`
     margin-right: 80px;
     display: flex;
     gap: 56px;
+    @media(max-width: 1080px){
+        gap: 80px;
+    }
+    @media(max-width:800px){
+        gap: 32px;
+    }
 `;
 
 export const HomeB = styled.a`
@@ -53,6 +65,13 @@ export const HomeB = styled.a`
         background-clip: text;
     }
     text-decoration: none;
+    @media(max-width:1080px){
+        font-size:20px;
+    }
+    @media(max-width:800px){
+        font-size: 16px;
+        font-weight: 700;
+    }
 `;
 
 export const AboutB = styled.a`
@@ -69,6 +88,13 @@ export const AboutB = styled.a`
         background-clip: text;
     }
     text-decoration: none;
+    @media(max-width:1080px){
+        font-size:20px;
+    }
+    @media(max-width:800px){
+        font-size: 16px;
+        font-weight: 700;
+    }
     `;
 
 export const ProductsB = styled.a`
@@ -85,6 +111,13 @@ export const ProductsB = styled.a`
         background-clip: text;
     }
     text-decoration: none;
+    @media(max-width:1080px){
+        font-size:20px;
+    }
+    @media(max-width:800px){
+        font-size: 16px;
+        font-weight: 700;
+    }
     `;
 
 export const FeedbacksB = styled.a`
@@ -101,6 +134,13 @@ export const FeedbacksB = styled.a`
         background-clip: text;
     }
     text-decoration: none;
+    @media(max-width:1080px){
+        font-size:20px;
+    }
+    @media(max-width:800px){
+        font-size: 16px;
+        font-weight: 700;
+    }
     `;
 
 export const SupportB = styled.a`
@@ -117,6 +157,13 @@ export const SupportB = styled.a`
         background-clip: text;
     }
     text-decoration: none;
+    @media(max-width:1080px){
+        font-size:20px;
+    }
+    @media(max-width:800px){
+        font-size: 16px;
+        font-weight: 700;
+    }
 `;
 
 export const ContactB = styled.a`
@@ -133,6 +180,13 @@ export const ContactB = styled.a`
         background-clip: text;
     }
     text-decoration: none;
+    @media(max-width:1080px){
+        font-size:20px;
+    }
+    @media(max-width:800px){
+        font-size: 16px;
+        font-weight: 700;
+    }
 `;
 
 export const ScrollDiv = styled.div`
