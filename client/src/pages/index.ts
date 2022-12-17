@@ -1,7 +1,6 @@
 import { Home } from './home';
 import Feedback from './feedback';
 import { HomePage } from './HomePage';
-import Feedback from './feedback';
 import { Contact } from './contact';
 import {Navbar} from './navbar';
 import ProductsSection from './products';
@@ -14,7 +13,6 @@ export {
     HomePage,
     ProductsSection,
     Navbar,
-    Feedback,
     Contact,
     SupportPage,
     SectionAboutUs
