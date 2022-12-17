@@ -12,13 +12,11 @@ import neoVentures from './9 1.png';
 import Smartphone from './smartphone.png';
 import TriangleImg from './blue_rectangle.png';
 import BlueLine from './blue_line.png';
-import LeftArrow from './leftArrow.png'
-import RightArrow from './rightArrow.png'
 import LogoWhatsapp from './logoWhatsapp.png';
 import BackgroundContact from './backgroundContact.png';
-import DouglasFarias from './douglasFarias.png'
-import SilvanaFarias from './silvanaFarias.png'
-import SilviaLira from './silviaLira.png'
+import BlueLine from './blue_line.png';
+import LogoInstagram from './Instagram.png';
+import LogoFacebook from './facebook.png';
 
 export {
     BlueLine,
@@ -41,5 +39,7 @@ export {
     BackgroundContact,
     DouglasFarias,
     SilvanaFarias,
-    SilviaLira
+    SilviaLira, 
+    LogoInstagram,
+    LogoFacebook,
 };

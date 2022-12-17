@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect } from "react";
 import Slider from "react-slick";
-import { LeftArrow, RightArrow, DouglasFarias, SilvanaFarias, SilviaLira } from "../../assets";
+import { LeftArrow, RightArrow } from "../../assets";
 import { CarouselContainer, FeedbackContainer, Text, TitleSection } from "./styles";
 import { CardFeedback } from "../../components"
 import axios from 'axios';
@@ -18,9 +18,28 @@ function SamplePrevArrow(props: any) {
         <img src={LeftArrow} className={className} onClick={onClick} style={{ ...style, display: "block", height: "69px", width: "34px", marginLeft: "-72px" }}/>
     );
 }
+// props card Feedback
+type FeedbackProps = {
+  picture: string;
+  name: string;
+  company: string;
+  text: string;
+}
 
-export default class Feedback extends Component {
-    render() {
+const Feedback = () => {
+  const [feedbackInfo, setFeedbackInfo] = useState<FeedbackProps[]>([]);
+
+      async function loadFeedbackInfo() {
+        const res = await axios.get('http://localhost:3001/feedback');
+        const { data } = res;
+        console.log(data);
+        setFeedbackInfo(data);
+      }
+      
+      useEffect(() => {
+        loadFeedbackInfo();
+      }, [])
+
       const settings = {
         dots: true,
         infinite: true,
@@ -53,7 +72,7 @@ export default class Feedback extends Component {
             ></div>
           )
       };
-      
+
       return (
         <FeedbackContainer>
             <TitleSection>FEEDBACK</TitleSection>
@@ -61,12 +80,15 @@ export default class Feedback extends Component {
             {/* carousel */}
             <CarouselContainer>
                 <Slider {...settings}>
-                  <CardFeedback picture={DouglasFarias} name={"Douglas Farias"} company={"Exclusivo’s Moda Masculina"} text={"“Os serviços da MLA superaram minhas expectativas. Conseguimos dobrar o nosso faturamento no último mês!"}/>
-                  <CardFeedback picture={SilviaLira} name={"Silvia Lira"} company={"Exclusivo’s Moda Feminina"} text={"“Sabe de uma coisa? Inovar é preciso, e eu percebi a diferença quando contratei os serviços da MLA, pois estava muito perdida e depois dos serviços deles eu consegui escalonar minhas vendas. Super recomendo!”"}/>
-                  <CardFeedback picture={SilvanaFarias} name={"Silvana Farias"} company={"Perfeitta Moda Feminina"} text={"“Foi um divisor de águas na minha empresa após adquirir e utilizar os apps da MLA digital, aumentamos nosso faturamento e nossa visibilidade significadamente.”"}/>
+                  {feedbackInfo?.map(({ picture, name, company, text}: FeedbackProps) => (
+                      <CardFeedback picture={picture} name={name} company={company} text={text}/>
+                    ))
+                  }
                 </Slider>
             </CarouselContainer>
         </FeedbackContainer>
       );
-    }
+    
   }
+
+export default Feedback;

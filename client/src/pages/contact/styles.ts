@@ -1,11 +1,35 @@
 import styled from 'styled-components'; 
 
+// Style section
+export const ContainerContact = styled.section`
+    background: linear-gradient(224.68deg, rgba(149, 76, 180, 0.5) 5.09%, rgba(85, 76, 177, 0.5) 28.57%);
+    
+    position: relative;
+    
+    width: 1440px;
+    height:1024px;
+
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0 182px 91px;
+
+    margin: 0;
+    padding: 0;
+`;
+
 // Imagem background
 export const ContainerImageBackground = styled.div`
     position: absolute;
 
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
     
     top: 0;
     left: 0;
@@ -27,7 +51,7 @@ export const ContainerContact = styled.section`
     position: relative;
     
     width: 100vw;
-    height:100vh;
+    height: 808px;
 
     overflow: hidden;
     position: relative;
@@ -89,11 +113,15 @@ export const Text = styled.p`
 
 // Botao
 export const LinkButtonWhatsapp = styled.a`
+    width: 206px;
+    text-decoration: none;
 `;
 
 export const ButtonWhatsapp = styled.button`
     outline: none;
     border: none;
+
+    cursor: pointer;
 
     width: 206px;
     height: 74px;
