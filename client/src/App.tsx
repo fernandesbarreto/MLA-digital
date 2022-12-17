@@ -21,9 +21,15 @@ function App() {
       <Whatsapp/>
       <ScrollDiv id = "home"/>
       <HomePage />
+      <ScrollDiv id = "about"/>
+      <SectionAboutUs/>
+      <ScrollDiv id = "products"/>
       <ProductsSection/>
+      <ScrollDiv id = "feedbacks"/>
       <Feedback/>
-      <ScrollDiv id = "contact"/>
+      <ScrollDiv id = "support"/>
+      <SupportPage/>
+      <ScrollDiv id = "contacts"/>
       <Contact/>
       <Footer></Footer>
       {/* <Component_apoio/> */}

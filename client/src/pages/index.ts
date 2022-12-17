@@ -4,12 +4,16 @@ import { HomePage } from './HomePage';
 import { Contact } from './contact';
 import {Navbar} from './navbar';
 import ProductsSection from './products';
+import SupportPage from './secaoApoio';
+import { SectionAboutUs } from './AboutUs';
 
 export {
     Home,
     Feedback,
     HomePage,
-    Contact,
     ProductsSection,
-    Navbar
+    Navbar,
+    Contact,
+    SupportPage,
+    SectionAboutUs
 };

@@ -16,6 +16,7 @@ import startUp from './8 1.png';
 import neoVentures from './9 1.png';
 import Smartphone from './smartphone.png';
 import TriangleImg from './blue_rectangle.png';
+import BlueLine from './blue_line.png';
 import LogoWhatsapp from './logoWhatsapp.png';
 import BackgroundContact from './backgroundContact.png';
 import BlueLine from './blue_line.png';
@@ -23,9 +24,6 @@ import LogoInstagram from './Instagram.png';
 import LogoFacebook from './facebook.png';
 
 export {
-    LogoCITi, 
-    LogoWhatsapp,
-    BackgroundContact,
     BlueLine,
     Smartphone,
     TriangleImg,
@@ -39,8 +37,11 @@ export {
     neoVentures,
     FotoTelefone, 
     Quadrado,
+    LogoCITi,
     LeftArrow,
     RightArrow,
+    LogoWhatsapp,
+    BackgroundContact,
     DouglasFarias,
     SilvanaFarias,
     SilviaLira, 

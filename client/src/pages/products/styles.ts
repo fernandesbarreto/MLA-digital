@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const General = styled.div`
-    height: 1024px;
+    height: 850px;
 `;
 
 export const Line = styled.img`
