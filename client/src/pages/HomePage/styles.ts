@@ -3,8 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
     position: relative;
     height: 850px;
-    @media(max-width: 1333px) {
-        height: 1200px;
+    @media(max-width: 1280px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 `;
 
@@ -23,15 +25,23 @@ export const Content = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     padding-top: 279px;
     @media(min-width: 1920px) {
         gap: 20%;
+    }
+    @media(max-width: 1280px){
+        flex-wrap: wrap;
+        width: 80%;
     }
 `;
 
 export const Texts = styled.div`
     width: 758px;
+    @media(max-width: 1280px){
+        margin: 0 auto;
+        align-self: center;
+        justify-self: center;
+    }
 `;
 
 export const Title = styled.h1`
@@ -42,6 +52,11 @@ export const Title = styled.h1`
     line-height: 77px;
     color: #1C1C1C;
     text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    @media(max-width:1280px){
+        font-size:40px;
+        line-height:52px;
+        text-align:center;
+    }
 `;
 
 export const Subtitle = styled.h4`
@@ -51,11 +66,19 @@ export const Subtitle = styled.h4`
     font-size: 32px;
     line-height: 38px;
     color: #1C1C1C;
+    @media(max-width:1280px){
+        font-size:24px;
+        text-align:center;
+    }
 `;
 
 export const Cellphone = styled.img`
     width: 537.81px;
     height: 461px;
+    @media(max-width: 1280px){
+        width: 268.9px;
+        height: 230.5px;
+    }
 `;
 
 

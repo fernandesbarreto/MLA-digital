@@ -4,7 +4,7 @@ import { ImageWhatsapp, LinkWhasapp } from "./styles";
 
 export const Whatsapp: React.ElementType = () => {
     return(
-        <LinkWhasapp href="https://api.whatsapp.com/send/?phone=5581993517332&text&type=phone_number&app_absent=0">
+        <LinkWhasapp href="https://api.whatsapp.com/send/?phone=5581993517332&text&type=phone_number&app_absent=0" target="_blank">
             <ImageWhatsapp src={LogoWhatsapp}/>
         </LinkWhasapp>
     );

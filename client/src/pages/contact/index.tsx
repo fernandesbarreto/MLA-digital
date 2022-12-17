@@ -13,7 +13,7 @@ export const Contact: React.FC = () => {
             <ContainerContent>
                 <Text>Tem interesse? {'\n'} Entre em contato   {'\n'} conosco!</Text>
                 {/* botao */}
-                <LinkButtonWhatsapp href="https://api.whatsapp.com/send/?phone=5581993517332&text&type=phone_number&app_absent=0">
+                <LinkButtonWhatsapp href="https://api.whatsapp.com/send/?phone=5581993517332&text&type=phone_number&app_absent=0" target="_blank">
                     <ButtonWhatsapp>
                         <ImageWhatsapp src={LogoWhatsapp}/>
                         WhatsApp

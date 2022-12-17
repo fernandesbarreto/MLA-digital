@@ -8,9 +8,6 @@ export const General = styled.div`
     flex-direction: column;
     align-items: center;
     position: relative;
-    @media (max-width: 1080px){
-        height: 1200px;
-    }
    
 `
 
@@ -19,9 +16,8 @@ export const Line = styled.div`
     height: 5px;
     margin-top: 56px;
     background-color: rgba(78, 232, 232, 1);
-    @media (max-width: 1080px){
-        width: 100%;
-        margin-left: auto;
+    @media (max-width: 1280px){
+        width: 80%;
     } 
 `
 
@@ -38,7 +34,7 @@ export const AboutUs = styled.div`
     background-clip: text;
     font-family: 'Lato', 'Times New Roman', Times, serif;
     text-align: center;
-    @media (max-width: 1080px){
+    @media (max-width: 1280px){
         width: 100%;
         margin-left: auto;
     }
@@ -54,9 +50,9 @@ export const MainText = styled.div`
     color: rgba(28, 28, 28, 1);
     font-family: 'Lato', 'Times New Roman', Times, serif;
     text-align: center;
-    @media (max-width: 1080px){
-        width: 100%;
-        margin-left: auto;
+    @media (max-width: 1280px){
+        width: 70%;
+        font-size: 32px;
     }
 `
 export const Negrito = styled.span`
@@ -67,7 +63,7 @@ export const Section2 = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    @media (max-width:1080px){
+    @media (max-width: 1280px){
         display: flex;
         flex-direction: column;
     }
@@ -80,12 +76,12 @@ export const Description = styled.div`
     font-weight: 400;
     font-size: 24px;
     font-family: 'Lato', 'Times New Roman', Times, serif;
-    @media (max-width: 1180px){
-        width: 80%;
+    @media (max-width: 1280px){
+        width: 60%;
         text-align: center;
         margin: 0 auto;
-        margin-top: 74px;
-        
+        margin-top: 36px;
+        font-size: 20px;
     }
 `
 
@@ -93,7 +89,7 @@ export const Photo = styled.img`
     margin-left: 119px;
     margin-top: -48px;
     z-index: 2;
-    @media(max-width: 1080px){
+    @media(max-width: 1280px){
         height: 300px;
         width: 300px;
         object-fit: cover;
@@ -111,7 +107,7 @@ export const Square = styled.img`
     left: 63%;
     top: 185px;
     z-index : 0;
-    @media (max-width:1081px){
-        margin-left: 1090px;
+    @media (max-width:1280px){  
+        display: none;
     }
 `
