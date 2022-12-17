@@ -51,4 +51,5 @@ export const Content = styled.div`
     max-width: 740px;
     gap: 68px;
     justify-content: center;
+    overflow: auto;
 `;

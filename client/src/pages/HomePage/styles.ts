@@ -3,6 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
     position: relative;
     height: 850px;
+    @media(max-width: 1333px) {
+        height: 1200px;
+    }
 `;
 
 export const Triangle = styled.img`

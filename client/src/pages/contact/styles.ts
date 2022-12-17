@@ -6,7 +6,7 @@ export const ContainerContact = styled.section`
     
     position: relative;
     
-    width: 1440px;
+    width: 100%;
     height:1024px;
 
     overflow: hidden;
