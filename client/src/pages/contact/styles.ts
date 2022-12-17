@@ -44,6 +44,24 @@ export const ImageBackground = styled.img`
     object-fit: cover;
 `;
 
+// Style section
+export const ContainerContact = styled.section`
+    background: linear-gradient(224.68deg, rgba(149, 76, 180, 0.5) 5.09%, rgba(85, 76, 177, 0.5) 28.57%);
+    
+    position: relative;
+    
+    width: 100vw;
+    height: 808px;
+
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0 182px 91px;
+`;
+
 export const ContainerTitleSection = styled.div`
     position: absolute;
     border-top: 5px solid #4EE8E8;
