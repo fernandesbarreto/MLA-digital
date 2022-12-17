@@ -29,7 +29,10 @@ export const AboutUs = styled.div`
     font-size: 32px;
     font-style: normal;
     font-weight: 800;
-    color: rgba(149, 76, 180, 1);
+    background: linear-gradient(180deg, #954CB4 27.6%, #554CB1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-family: 'Lato', 'Times New Roman', Times, serif;
     text-align: center;
     @media (max-width: 1080px){

@@ -23,7 +23,10 @@ export const TitleSection = styled.div`
   margin-top: 56px;
   padding-top: 48px;
 
-  color: rgba(149, 76, 180, 1); //colocar gradient
+  background: linear-gradient(180deg, #954CB4 27.6%, #554CB1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 
   border-top: 5px solid #4EE8E8;
 `;
@@ -52,4 +55,5 @@ export const CarouselContainer = styled.div`
   margin-top: 374px;
 
   width: 1047px;
+  height: 100px;
 `;

@@ -56,7 +56,7 @@ export default class Feedback extends Component {
       
       return (
         <FeedbackContainer>
-            <TitleSection>Feedback</TitleSection>
+            <TitleSection>FEEDBACK</TitleSection>
             <Text>Veja um pouco do que quem confiou {'\n'} nos nossos serviços tem a dizer</Text>
             {/* carousel */}
             <CarouselContainer>
